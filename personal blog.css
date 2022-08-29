@@ -1,0 +1,124 @@
+.title{
+    color: #ffffff;
+    font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin : 10px 12px;
+    margin-right: 50%;
+}
+
+.image1{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+/*div*/
+
+.a{
+    width: 100%;
+    background-color: #e6d3de;
+    float: right;
+    background-image: url('bg.jpg');
+}
+.b{
+    
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: -490px;
+    float: left;
+}
+.c{
+    background-image: url('bg.jpg');
+    height: 100%;
+    text-align: center;
+}
+
+/*social media*/
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 12px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #e2acde;
+    color: white;
+    
+  }
+  .fa-twitter {
+    background: #e2acde;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #e2acde;
+    color: white;
+  }
+  .fa-instagram {
+    background: #e2acde;
+    color: white;
+  }
+
+  /*header*/
+
+  .menu-bar ul {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
+    font-size: small;
+    list-style-type: none;
+    margin-left: 30%;
+    
+}
+
+.menu-bar ul li{
+    position: relative;
+    text-decoration: none;
+    z-index: 99;
+}
+
+
+.menu-bar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #79014b;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 15px 5px 1px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    
+}
+
+.menu-bar ul li a:hover{
+	opacity: 0.7;
+}
+.menu-bar ul li a:active{
+    background: #f0f8ff;
+    
+    
+}
+
+.menu-bar ul li > a{
+    margin-right: 1px;
+    
+}
+
+/*about*/
+
+h3,p{
+    font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
+}
