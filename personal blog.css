@@ -122,3 +122,14 @@
 h3,p{
     font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
 }
+
+/*subt*/
+.subt{
+    color: #ffffff;
+    font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin : 10px 12px;
+    margin-right: 50%;
+}
