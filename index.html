@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="personal blog.css">
+        
     </head>
     <body>
         <div>
@@ -13,9 +14,9 @@
     
                     
                     <li><a href = "#">Home</a></li>
-                    <li><a href = "#">My stories</a>
-                   <li><a href = "#">Vlogs</a>
-                   <li><a href = "About Us.html"></i>Contact</a>
+                    <li><a href = "#about">About</a>
+                   <li><a href = "#vlogs">Vlogs</a>
+                   <li><a href = "#contact"></i>Contact</a>
 
                    </ul>
             </div>
@@ -24,7 +25,7 @@
 
                 <!--social media-->
 
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/shihara.dissanayake.92" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>
                 <a href="#" class="fa fa-instagram"></a>
@@ -33,30 +34,56 @@
                 
                 <img src="image.jpg" width="300px" height="400px" class="image1">
                 <div class="b">
-                    <h3>ABOUT</h3>
-                    <P>I am Shihara Dissanayake,a girl who likes to view the world with a new angle.As an asian girl born to a typical brown parents,yeah
+                    <ul id="about">
+                    <li class="para">ABOUT
+                    <P class="para">I am Shihara Dissanayake,a girl who likes to view the world with a new angle.As an asian girl born to a typical brown parents,yeah
                     as you can already guess, it is hard to achieve what exactly I want my life to be.
                     </P>
-                    <h3>Education</h3>
-                    <p>I am currently a first year undergraduate of University of Moratuwa and I am reading for the degree,Bachelor of Information Technology and Management.And also 
+                    <li class="para">Education</h3>
+                    <p class="para">I am currently a first year undergraduate of University of Moratuwa and I am reading for the degree,Bachelor of Information Technology and Management.And also 
                     I am a second year undergraduate of SLIIT, which I continue as an external degree , for Information technology specialization Interactive Media.
                 I did my Advanced Level Examinations in Physical stream in Rathnavali Balika Vidyalaya Gampaha.I have a deploma for graphic designing in ESOFT metro campus.  </p>
-                <h3>story so far...</h3>
-                <p>I have worked as an assistant teacher in JES Art School Gampaha.And also I have a experience as a shadow teacher for autism kids.I have special training for it.</p>
-                </div>
+                <li class="para">story so far...</h3>
+                <p class="para">I have worked as an assistant teacher in JES Art School Gampaha.And also I have a experience as a shadow teacher for autism kids.I have special training for it.</p>
+            </ul></div>
             </div>
             
         </div>
 
-        <div><p class="subt">VLOGS</p>
+        <div><p class="subt" id="vlogs">VLOGS</p>
         
-        <table>
+        <table cellspacing="100px">
             <tr>
-                <td><video src="" width="" height="" controls></video></td>
-                <td>hieiheofiocfeiocneiocneiocnoicnwiocbbebefivbiubve</td>
+                <td><video src="6th.mp4" width="300" height="500" controls></video></td>
+                <td><video src="31st.mp4" width="300" height="500" controls></video></td>
+                <td><video src="08thoct.mp4" width="300" height="500" controls></video></td>
+            </tr>
+            <tr>
+                <td class="para"> Have less expections.<br>Fly as far you can.<br>6<sup>th</sup> July 2021</td>
+                <td class="para"> Does it ever drive you crazy.<br>Just how fast the night changes.<br>31<sup>st</sup> July 2021</td>
+                <td class="para"> Hope makes you want to<br>dream bigger<br>8<sup>th</sup> October 2021</td>
             </tr>
         </table>
         
+        </div>
+        <p class="subt" id="contact" style="margin-right: 80%;">Be in touch with me</p><br><br>
+
+        <form>
+            <label class="para">Name</label>
+            <input type="text" D><br><br>
+            <label class="para">message</label>
+            <input type="text"><br><br>
+            <input type="submit" value="send" onclick="gomessage()" style="margin-bottom: 10px;margin-left: 350px; font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';">
+        </form>
+
+        <script>
+            function gomessage(){
+                alert("You are now a friend of Shihara");
+            }
+        </script>
+
+        <div>
+
         </div>
 
         <!--footer-->
